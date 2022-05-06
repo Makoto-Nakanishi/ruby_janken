@@ -7,6 +7,9 @@ def janken
 
   if input_hand == 3
     return false
+  else 
+    puts "ジャンケンの手を入力してください"
+    return true
   end
   
   puts "ホイ！"
